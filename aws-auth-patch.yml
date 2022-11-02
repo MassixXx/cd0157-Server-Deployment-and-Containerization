@@ -10,7 +10,7 @@ data:
       rolearn: arn:aws:iam::496723592195:role/eksctl-eksctl-demo-nodegroup-ng-0-NodeInstanceRole-BRBZKPSH7DA9
       username: system:node:{{EC2PrivateDNSName}}
       - system:masters
-      rolearn: arn:aws:iam::519002666132:role/UdacityFlaskDeployCBKubectlRole
+      rolearn: arn:aws:iam::496723592195:role/UdacityFlaskDeployCBKubectlRole
       username: build
 kind: ConfigMap
 metadata:
